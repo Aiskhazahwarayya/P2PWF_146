@@ -16,7 +16,6 @@
 ![Admin](Screenshots/Praktikum5/tampilanadd.png)
 ![Admin](Screenshots/Praktikum5/update.png)
 ![Admin](Screenshots/Praktikum5/tampilanupdate.png)
-![Admin](Screenshots/Praktikum5/update.png)
 ![Admin](Screenshots/Praktikum5/produkdetail.png)
 ![Admin](Screenshots/Praktikum5/popuphapus.png)
 ![Admin](Screenshots/Praktikum5/tampilandelete.png)
