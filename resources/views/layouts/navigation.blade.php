@@ -16,10 +16,12 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     
-                    {{-- Posisi Product dipindah ke sini (opsional agar urutannya enak dilihat) atau biarkan setelah about --}}
+                    {{-- Gate: Menu Product hanya muncul untuk Admin --}}
+                    @can('manage-product')
                     <x-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                         {{ __('Product') }}
                     </x-nav-link>
+                    @endcan
 
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                          {{ __('About') }}
@@ -80,10 +82,12 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
 
-            {{-- Navigasi mobile untuk Product --}}
+            {{-- Gate: Menu Product versi Mobile hanya muncul untuk Admin --}}
+            @can('manage-product')
             <x-responsive-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                 {{ __('Product') }}
             </x-responsive-nav-link>
+            @endcan
 
             <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
                 {{ __('About') }}

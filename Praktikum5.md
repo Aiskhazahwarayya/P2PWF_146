@@ -22,5 +22,3 @@
 
 ### Tampilan User 
 ![User](Screenshots/Praktikum5/tampilanuser.png)
-![User](Screenshots/Praktikum5/produkdetailuser.png)
-
