@@ -6,7 +6,7 @@
 
 ---
 
-![validation](Screenshots/Praktikum6/validation.png)
+![validation](Screenshots/Praktikum6/validasi.png)
 ![validation](Screenshots/Praktikum6/namakosong.png)
 ![validation](Screenshots/Praktikum6/qtykosong.png)
 ![validation](Screenshots/Praktikum6/pricekosong.png)
